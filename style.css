@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+/* smooth scrool behavior */
+html{
+    scroll-behavior: smooth;
+    font-size: 60%;
+}
 
 /* background blend mode  */
 header{
@@ -36,6 +40,7 @@ header{
 h1 {
   background-color: bisque;
   margin: 30px;
+  font-size: 6rem;
 }
 
 /* a tag is an inline element. Margin top and bottom not work on this.Only left and right margin works on it.However if we make it block element it will work. */
