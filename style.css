@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* background blend mode  */
+header{
+    background-image: url("/images/sayem88_wallpaper_render_8k_shoesnike_83d62b91-51c7-477f-9e28-e9edc9245080.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(21, 22, 22);
+    background-blend-mode: hard-light;
+}
+
+
+/* css clip path */
+.bg{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.562);
+    clip-path: polygon(0 0, 100% 0, 100% 43%, 0 78%)
+}
+/* gradient background */
+.bg-two{
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(to right , rgba(255, 0, 0, 0.527) , rgba(255, 255, 0, 0.555));
+    clip-path: polygon(0 46%, 100% 0, 100% 100%, 0 100%)
+}
+
+/* block vs inline */
+
+h1 {
+  background-color: bisque;
+  margin: 30px;
+}
+
+/* a tag is an inline element. Margin top and bottom not work on this.Only left and right margin works on it.However if we make it block element it will work. */
+a{
+    margin: 20px;
+}
